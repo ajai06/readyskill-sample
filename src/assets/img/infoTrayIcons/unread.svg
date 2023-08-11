@@ -1,0 +1,17 @@
+<svg width="24" height="21" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+   <defs>
+        <linearGradient id="grad1">
+            <stop offset="0%" stop-color="#427EF5"/>
+            <stop offset="100%" stop-color="#07C6D8" stop-opacity="1" />
+        </linearGradient>
+    </defs>
+  <rect stroke-width="2" id="svg_6" height="20.1875" width="16.0625" y="0.3125" x="4" stroke="url(#grad1)" fill="none"/>
+  <line  stroke-width="2" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_8" y2="14.5625" x2="9.68886" y1="14.5625" x1="3.9375" stroke="#427EF5" fill="none"/>
+  <line stroke-width="2" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_7" y2="14.5625" x2="19.75136" y1="14.5625" x1="14" stroke="#07C6D8" fill="none"/>
+  
+  <path id="svg_10" d="m9.25,14.4375c0,0 2.4375,3.75 5.25,-0.0625" opacity="NaN" stroke="url(#grad1)" fill="none"/>
+ </g>
+
+</svg>

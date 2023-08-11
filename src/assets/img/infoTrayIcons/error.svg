@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom/Icon/Error</title>
+    <defs>
+        <path d="M19.216,17.4644999 L12.882,5.58949994 C12.506,4.88349994 11.494,4.88349994 11.117,5.58949994 L4.784,17.4644999 C4.429,18.1304999 4.912,18.9354999 5.667,18.9354999 L18.334,18.9354999 C19.088,18.9354999 19.571,18.1304999 19.216,17.4644999 Z M12,16.9354999 C11.448,16.9354999 11,16.4874999 11,15.9354999 C11,15.3834999 11.448,14.9354999 12,14.9354999 C12.552,14.9354999 13,15.3834999 13,15.9354999 C13,16.4874999 12.552,16.9354999 12,16.9354999 Z M13,13.9354999 L11,13.9354999 L11,9.93549994 L13,9.93549994 L13,13.9354999 Z" id="path-1"></path>
+    </defs>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-316.000000, -33.000000)">
+            <g id="Group" transform="translate(312.000000, 28.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="↳-🎨Color" mask="url(#mask-2)" fill="#F8AF14" stroke="#F8AF14">
+                    <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

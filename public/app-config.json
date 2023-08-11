@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://devapi.readyskill.io",
+    "chatHubUrl": "https://devapi.readyskill.io/Messages",
+    "mobileOrganizationId": "3FA85F64-5717-4562-B3FC-2C963F66AFA6",
+    "externalIdentityUrl":"https://readyskillidentity.azurewebsites.net/api/v1"
+}

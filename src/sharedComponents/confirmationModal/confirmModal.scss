@@ -1,0 +1,63 @@
+.confirmModal {
+
+    //modal css
+    .modal-content {
+        background-color: #181633;
+        border: 1px solid #575868;
+    }
+
+    .cursor-text {
+        cursor: text !important;
+    }
+
+    .btn-close {
+        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(268deg) brightness(102%) contrast(103%);
+    }
+
+    .modal-header {
+        border-bottom: 1px solid #555374;
+        ;
+    }
+
+    .subHead-text-learner {
+        color: #01dbcf;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .plus-icon {
+        font-size: 25px;
+        color: #f0f0f0;
+        cursor: pointer;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #555374;
+    }
+
+    .close-modal-btn {
+        border: none !important;
+        color: #9391b6;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .close-modal-btn:hover {
+        color: #f0f0f0;
+        text-decoration: none;
+    }
+
+    .custom-btn-modal {
+        border-radius: 3px;
+        border: none;
+        background-color: #01dbcf;
+        padding: 8px 25px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .custom-btn-modal:hover {
+        background-color: #21f7ec;
+        color: #000;
+    }
+}

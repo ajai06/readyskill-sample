@@ -1,0 +1,289 @@
+.candidate-tray-filter-main{
+
+//candidate tray css starting--
+.overflow-body{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.filter-card{
+    background-color: #181633;
+    height: 700px;
+  }
+  .reset{
+    color: #e4e3ea;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .filter-head{
+    color: #9391B6;
+    font-weight: 500;
+    font-size: 19px;
+  }
+  .filter-arrow{
+    color: #9391b6;
+    font-size: 17px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  .filter-arrow-disabled{
+    color:#919191;
+    font-size: 17px;
+    // cursor: pointer;
+    margin-top: 5px;
+  }
+  .filter-text{
+    color: white;
+    font-weight: 500;
+    font-size: 19px;
+    padding-bottom: 17px;
+    cursor: pointer;
+  }
+  .industries-filter{
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 17px;
+    cursor: pointer;
+  }
+  .industries-filter-sub{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    padding-bottom: 17px;
+    cursor: pointer;
+  }
+  .back-arrow{
+    position: absolute;
+  }
+  .filter-search{
+    text-align: center
+  }
+  .filter-searchbox{
+    width: 100%;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 2px solid #555374;
+    background-color: transparent;
+    padding: 5px 15px;
+    color: #ffffff;;
+  }
+  .filter-searchclose{
+    position: absolute;
+    margin-top: 6px;
+    right: 1%;
+    color: #555374;
+    cursor: pointer;
+  }
+  .reset-area{
+    text-align: right;
+  }
+  .card-footer{
+    border-top: 1px solid #302e5f;
+  }
+  .filter-pagearrow{
+    float: right;
+    display: flex;
+    width: 20%;
+  }
+  .career-checkbox{
+    width: 20px;
+    height: 20px;
+    top: -2px;
+  }
+  .filter-checkboxes{
+    padding-bottom: 14px;
+  }
+
+
+  .candidate-section{
+    display: flex;
+  }
+  .candidate-search{
+    width: 60%;
+  }
+  .candidate-upper{
+    display: flex;
+    width: 100%;
+  }
+
+  .filter-pagination{
+    display: inline-block;
+    width: 100%;
+  }
+  .filter-pages{
+    float: left;
+  }
+  .page-arrows{
+    float: right;
+  }
+
+  .filter-arrow-disabled{
+    color: #444b56;
+    font-size: 17px;
+    // cursor: pointer;
+    margin-top: 5px;
+  }
+  .no-results{
+    color: white;
+    text-align: center;
+  }
+
+  .no-results-card{
+    color: white;
+    margin-top: 12px;
+    font-size: 20px;
+  }
+  .search-results{
+    max-height: 120px;
+    height: auto;
+    padding-top: 10px;
+    overflow-y: auto;
+  }
+  .return-btn{
+    width: 90%;
+    text-align: left;
+  }
+  .return-btn a{
+    color: #01dbcf;
+    font-weight: 500;
+    position: absolute;
+    bottom: 20px;
+  }
+  .view-all-btn{
+    color: #01dbcf;
+    font-weight: 500;
+    bottom: 20px;
+  }
+  .candidate-cards-section{
+    .view-section{
+      position: absolute;
+      right: 40px;
+      bottom: 0px;
+    }
+  }
+  .candidate-section{
+    .pr-100{
+      padding-right: 100px;
+    }
+    .viewLink-2{
+      width: auto;
+      text-align: end;
+    }
+    .viewLink-2 a {
+      color: #01dbcf;
+      font-weight: 500;
+      position: absolute;
+      bottom: 0px;
+      right: 30px;
+    }
+  }
+  .overflow-class{
+    max-height: 645px;
+    overflow-y: auto;
+  }
+  //...........checkbox style starts..........//
+  .custom-control.overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator {
+    border-color: #07C4C1;
+  }
+.custom-control.overflow-checkbox .overflow-control-input {
+  display: none; }
+  .custom-control.overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::after {
+    -webkit-transform: rotateZ(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotateZ(45deg) scale(1);
+    top: -6px;
+    left: 5px; }
+  .custom-control.overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::before {
+    opacity: 1; }
+  .custom-control.overflow-checkbox .overflow-control-input:disabled ~ .overflow-control-indicator {
+    opacity: .5;
+    border: 2px solid #ccc; }
+    .custom-control.overflow-checkbox .overflow-control-input:disabled ~ .overflow-control-indicator:after {
+      border-bottom: 4px solid #ccc;
+      border-right: 4px solid #ccc; }
+
+.custom-control.overflow-checkbox .overflow-control-indicator {
+  border-radius: 3px;
+  display: inline-block; 
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #9391b6; }
+  input[type="checkbox"]:checked + label::after {
+    border: 2px solid black;
+  }
+  .custom-control.overflow-checkbox .overflow-control-indicator::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    -webkit-transform: rotateZ(90deg) scale(0);
+    -ms-transform: rotate(90deg) scale(0);
+    transform: rotateZ(90deg) scale(0);
+    width: 10px;
+    border-bottom: 4px solid #07C4C1;
+    border-right: 4px solid #07C4C1;
+    border-radius: 3px;
+    top: -2px;
+    left: 2px; }
+  .custom-control.overflow-checkbox .overflow-control-indicator::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    width: 10px;
+    border-right: 7px solid #181633;
+    border-radius: 3px;
+    -webkit-transform: rotateZ(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotateZ(45deg) scale(1);
+    top: -4px;
+    left: 5px;
+    opacity: 0; }
+.overflow-checkbox{
+  display: contents;
+}
+  //...........checkbox style ends..........//
+
+
+  @media only screen and (max-width: 1320px) {
+    .filter-head {
+      font-size: 14px;
+    }
+    .reset {
+      font-size: 10px;
+      margin-top: 3px;
+      cursor: pointer;
+    }
+    .filter-text{
+      font-size: 14px;
+    }
+    
+    .text-5{
+      font-size: 13px;
+    }
+  }
+  @media screen and (min-width: 700px) and (max-width: 1250px){
+    .industries-filter{
+      font-size: 15px;
+    }
+  }
+  @media screen and (min-width: 1250px) and (max-width: 1430px){
+    .industries-filter{
+      font-size: 16px;
+    }
+  }
+  
+
+}

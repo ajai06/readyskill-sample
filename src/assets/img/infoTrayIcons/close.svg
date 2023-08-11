@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 14 14"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom/Icon/Close</title>
+    <g id="Styles" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons"  transform="translate(-220.000000, -34.000000)" fill="#E72263" stroke="#E72263" stroke-width="2">
+            <g id="Group" transform="translate(215.000000, 28.000000)">
+                <g id="x" transform="translate(6.000000, 7.000000)">
+                    <line stroke-width="0.8" x1="12" y1="0" x2="0" y2="12" id="Path"></line>
+                    <line stroke-width=".8" x1="0" y1="0" x2="12" y2="12" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/bootstrap";
+
+body.modal-open {
+    overflow: auto;
+}
+    .add-contact-modal .modal-content {
+        background-color: #181633 !important;
+        border: 1px solid #494864 !important;
+    }
+    // .modal-backdrop.show {
+    //     opacity: 0 !important;
+    // }
+
+.error-msg {
+    color: #d33e3e;
+}
+
+// .fallback{
+//   background-color: red !important;
+//   height: 100%;
+//   width: 100%;
+//   // display: none;
+// }

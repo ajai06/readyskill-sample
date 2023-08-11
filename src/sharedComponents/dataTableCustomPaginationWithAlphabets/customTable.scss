@@ -1,0 +1,70 @@
+.custom-pagination{
+    width: fit-content;
+}
+
+.custom-aplha-pagination, .custom-pagination{
+    .sorting-alphabets{
+    color: #9391B6;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    .sorting-alphabets:hover{
+        color: #ddd;
+    }
+    .page-item.disabled .page-link{
+        background-color: transparent !important;
+        border: none;
+        color: #6a6a70;
+        font-weight: 700;
+        font-size: 17px;
+        cursor: pointer !important;
+        
+    }
+    .page-item .page-link{
+        background-color: transparent !important;
+        border: none;
+        color: #ffffff;
+        font-weight: 400;
+        cursor: pointer !important;
+        
+    }
+    .page-link{
+        background-color: transparent !important;
+        border: none;
+        color: #9391B6;
+    }
+    .page-link:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .pagination-arrow a{
+        color: #ffffff;
+        font-weight: 700 !important;
+        font-size: 17px !important;
+    }
+    .service-pagination{
+        position: absolute;
+        right: -5px;
+        bottom: -55px;
+        margin-top: 10px;
+    }
+    .users-pagination{
+        position: absolute;
+        right: -25px;
+        bottom: -80px;
+        margin-top: 10px;
+    }
+    .service-pagination{
+        position: absolute;
+        right: -14px;
+        bottom: -65px;
+        margin-top: 10px;
+    }
+    .platformIndustry-pagination{
+        position: absolute;
+        right: -10px;
+        margin-top: 25px;
+        padding-bottom: 50px;
+    }
+}

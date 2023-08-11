@@ -1,0 +1,374 @@
+html{
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    // overflow-y: hidden;
+  }
+body{
+    background-color: #302E5F !important;
+}
+
+.invite-code-login-container {
+    .login-bg {
+        background-image: linear-gradient(to bottom, #02d9cf, #526afd);
+    }
+    
+    .login-title {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 80px 15px 87px 15px;
+    }
+    .wrap-login {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .login-form-title {
+        font-size: 28px;
+        color: #fff;
+        line-height: 1.2;
+        text-align: center;
+    }
+    .inviteCode-container { 
+        width: 25%;
+        border-radius: 3px;
+        overflow: hidden;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+    }
+    .login-form {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .readySkill-logo{
+      width: 10%;
+      margin: 0 auto;
+    }
+    .wrap-input {
+        position: relative;
+        width: 100%;
+        z-index: 1;
+    }
+    .input-items {
+        font-size: 18px;
+        color: #fff;
+        display: block;
+        width: 100%;
+        background: transparent;
+        height: 50px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 0 30px 0 25px;
+    }
+    .container-form-btn {
+        width: 100%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: center;
+    }
+    .login-form-btn {
+        border-radius: 1px;
+        border: none;
+        background-image: linear-gradient(to left, #02d9cf, #526afd);
+        padding: 20px 150px;
+        color: #ffffff;
+    }
+    .txt1 {
+        font-size: 16px;
+        color: #999999;
+        line-height: 1.4;
+    }
+    .txt2 {
+        font-size: 16px;
+        color: #52a6fd;
+        line-height: 1.4;
+    }
+    .btn-face:hover,
+    .btn-google:hover {
+        border-color: #526afd;
+    }
+    .other-logins {
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+    }
+    .other-logins > a {
+        border: 1px solid white;
+        color: #ffffff;
+        padding: 5px 20px;
+        margin: 10px;
+    }
+    .signup-text {
+        color: #ebebeb;
+        font-size: 16px;
+    }
+    .error-msg{
+        color: #d33e3e;
+    }
+    .cancel-btn {
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #ffffff;
+        margin: 15px;
+        width: 170px;
+        padding: 15px 40px;
+      }
+      .loginButton  {
+        background-image: linear-gradient(to left, #02d9cf, #526afd);
+        border: none;
+        padding: 15px 40px;
+        color: #ffffff;
+        margin: 15px;
+        width: 170px;
+        border-radius: 3px;
+      }
+      .form-control{
+        color: #ffffff;
+      }
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover, 
+      input:-webkit-autofill:focus, 
+      input:-webkit-autofill:active  {
+          -webkit-box-shadow: 0 0 0 30px #302e5f  inset !important;
+          -webkit-text-fill-color: #fff !important;
+          caret-color: #fff;
+      }
+      
+      .form-container{
+        margin: auto;
+        width: 90%;
+      }
+      .error-icon{
+          color: #d33e3e;
+      }
+      .modal-show{
+          display: block;
+          background: rgba(0, 0, 0, 0.3);
+
+
+      }
+      .modal-hide{
+          display: none;
+      }
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*="col-"] {
+          width: 100%;
+        }
+        .inviteCode-container{
+          width: 65%;
+        }
+      }
+     
+      @media screen and (min-width: 700px) and (max-width: 1367px) {
+        .loginForm{
+          width: 35% !important; 
+        }
+        input[type="email"],
+        input[type="password"],
+        input[type="text"] select {
+          height: 47px;
+         
+        }
+        
+      }
+      @media screen and (min-width: 1367px) and (max-width: 1620px) {
+      input[type="email"],
+      input[type="password"],
+      input[type="text"] select {
+        height: 47px;
+       
+      }
+      .org-logo {
+        height: 55px;
+    }
+      .gradient {
+        padding: 65px 0px 75px 0px;
+      }
+      .login {
+        text-align: center;
+        margin-top: 23px;
+    }
+    .formBG {
+      padding: 20px 0px;
+      
+    }
+    .extra-links{
+      margin-top: 30px !important;
+    }
+  
+        
+    }
+    
+    @media screen and (min-width: 1100px) and (max-width: 1367px) {
+    
+    .extra-links{
+      margin-top: 20px !important;
+    }
+    
+    .other-login-btn {
+      padding: 4px 9px;
+    }
+    adient {
+      padding: 60px 0px 70px 0px;
+    }
+    .login {
+      text-align: center;
+      margin-top: 23px;
+    }
+    .formBG {
+      padding: 16px 0px;
+      
+    }
+    }
+    
+    @media (min-height: 760px) and (max-height: 880px){
+      .org-logo {
+        height: 37px !important;
+    }
+    .login-bg {
+      padding: 45px 0px 55px 0px !important;
+    }
+    input[type="email"],
+    input[type="password"],
+    input[type="text"] select {
+      height: 44px !important;
+      font-size: 14px !important;
+     
+    }
+    .loginButton {
+      padding: 15px 15px !important;
+    }
+    .cancel-btn {
+      padding: 15px 15px !important;
+    }
+  
+    .login{
+      margin-top: 19px !important;
+    } 
+   
+    }
+    @media (min-height: 610px) and (max-height: 760px){
+      .login-bg {
+        padding: 40px 0px 45px 0px !important;
+      }
+     .inviteCode-container{
+      width: 40% !important;
+      .text-white{
+        font-size: 14px !important;
+      }
+      .signup-text{
+        font-size: 12px !important;
+      }
+     }
+   .input-items {
+      font-size: 14px !important;
+      height: 35px !important;
+      padding: 0 30px 0 15px !important;
+  }
+  .loginButton {
+    padding: 10px 40px !important;
+    height: 45px !important;
+    font-size: 13px !important;
+  }  
+  .cancel-btn {
+    padding: 10px 40px !important;
+    height: 45px !important;
+    font-size: 13px !important;
+  }  
+    }
+    @media (min-height: 530px) and (max-height: 610px){
+      .login-bg {
+        padding: 30px 0px 30px 0px !important;
+      }
+      .inviteCode-container{
+        width: 40% !important;
+        .text-white{
+          font-size: 13px !important;
+        }
+        .signup-text{
+          font-size: 11px !important;
+        }
+       }
+     .input-items {
+        font-size: 13px !important;
+        height: 30px !important;
+        padding: 0 30px 0 15px !important;
+    } 
+    .loginButton {
+      padding: 8px 30px !important;
+      height: 35px !important;
+      font-size: 12px !important;
+    }  
+    .cancel-btn {
+      padding: 8px 30px !important;
+      height: 35px !important;
+      font-size: 12px !important;
+    }  
+    .form-container{
+      width: 75% !important;
+    }
+    }
+    @media (min-height: 300px) and (max-height: 530px){
+      .login-bg {
+        padding: 30px 0px 30px 0px !important;
+      }
+      .inviteCode-container{
+        width: 50% !important;
+        .text-white{
+          font-size: 11px !important;
+        }
+        .signup-text{
+          font-size: 9px !important;
+        }
+       }
+     .input-items {
+        font-size: 10px !important;
+        height: 26px !important;
+        padding: 0 20px 0 15px !important;
+    }  
+    .loginButton {
+      padding: 4px 10px !important;
+      height: 30px !important;
+      font-size: 11px !important;
+      margin: 10px !important;
+    }  
+    .cancel-btn {
+      padding: 4px 10px !important;
+      height: 30px !important;
+      font-size: 11px !important;
+      margin: 10px !important;
+    }  
+    .form-container{
+      width: 60% !important;
+    }
+    }
+    
+
+
+    
+}

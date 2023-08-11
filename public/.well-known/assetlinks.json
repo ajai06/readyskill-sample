@@ -1,0 +1,14 @@
+[
+    {
+       "relation":[
+          "delegate_permission/common.handle_all_urls"
+       ],
+       "target":{
+          "namespace":"android_app",
+          "package_name":"com.midohiofoodbank.ReadySkill",
+          "sha256_cert_fingerprints":[
+             "3E:5D:E5:3B:BC:5A:61:BC:9E:96:34:C7:C2:D6:9F:BB:32:3C:8E:C5:FD:CE:D2:76:4C:81:98:2F:41:12:15:DD"
+          ]
+       }
+    }
+ ]

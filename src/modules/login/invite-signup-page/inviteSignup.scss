@@ -1,0 +1,110 @@
+html{
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+    // overflow-y: hidden;
+  }
+  body {
+    background-color: #302E5F !important;
+  }
+.form-outline{
+    position: relative ;
+}
+.invite-signup-container{
+   
+    .main-bg{
+        background-color: #302E5F;
+        
+    }
+    .list-btn{
+        background-image: linear-gradient(to left, #02d9cf, #526afd);
+            border: none;
+            padding: 15px 56px;
+            color: #ffffff;
+            margin: auto;
+            width: 18%;
+    }
+    .form-head{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    } 
+    .head{
+        width: 100%;
+        color: #fff;
+    }
+    .org-buttons{
+                margin:0 auto;
+                overflow:hidden;
+                left:0;
+                right:0;
+                display: flex;
+                justify-content: center;
+    }
+    .create-btn{
+        background-image: linear-gradient(to left, #02d9cf, #526afd);
+            border: none;
+            padding: 15px 40px;
+            color: #ffffff;
+            margin: 15px;
+            width: 170px;
+    }
+    .cancel-btn{
+        background-color: transparent;
+        border: 1px solid #fff;
+        color: #ffffff;
+        margin: 15px;
+        width: 170px;
+        padding: 15px 40px;
+    }
+        .form-control {
+        background-color: transparent !important;
+        border: 1px solid #fff !important;
+        color: #d3d2e4 !important;
+    }
+    .form-control{
+        color: #ffffff;
+      }
+      input:-webkit-autofill,
+      input:-webkit-autofill:hover, 
+      input:-webkit-autofill:focus, 
+      input:-webkit-autofill:active  {
+          -webkit-box-shadow: 0 0 0 30px #302e5f  inset !important;
+          -webkit-text-fill-color: #fff !important;
+          caret-color: #fff;
+      }
+    .error-msg{
+        color: #d33e3e;
+    }
+    .gradient {
+        background-image: linear-gradient(to bottom, #02d9cf, #526afd);
+        padding: 83px;
+        text-align: center;
+      }
+    .user-reg-card{
+        margin: 0 auto;
+        width: 45%;
+    }
+    .subText {
+        color: #9391b6;
+        font-size: 14px;
+      }
+      .inner-sub{
+        color: #e1e0e4;
+        font-size: 15px;
+        letter-spacing: 0.25px;
+      }
+      .disabled-input{
+        background-color: #2d2c4e;
+      }
+      .eye-icon{
+        position: absolute;
+        z-index: 9999;
+        top: 59%;
+        right: 8px;
+        font-size: 18px;
+        color: #D3D2E4;
+        cursor: pointer;
+      }
+}

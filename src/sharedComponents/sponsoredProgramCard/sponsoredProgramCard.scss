@@ -1,0 +1,57 @@
+.sponsered-program-main {
+  .sponsered-tray {
+    display: block;
+    background-color: #171531;
+    padding: 5px;
+  }
+  .sponsered-logo {
+    border-radius: 5px;
+  }
+  .sponsered-head {
+    margin-top: 0px !important;
+  }
+  .sponsered-details {
+    display: flex;
+    margin-top: 10px;
+  }
+  .sponsered-count {
+    color: #ffffff;
+  }
+  .sponsered-border-blue {
+    border-top: 5px solid cyan;
+  }
+  .sponsered-border-red {
+    border-top: 5px solid #e72263;
+  }
+  .sponsered-border-yellow {
+    border-top: 5px solid #f9b014;
+  }
+  .arrows {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .arrow-disabled {
+    color: #919191;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .scroll-arrow {
+    float: right;
+    width: 20%;
+    padding-bottom: 50px;
+  }
+  .fade-right {
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, white 40%);
+    mask-image: linear-gradient(to left, transparent 0%, white 40%);
+  }
+
+  @media only screen and (max-width: 1320px) {
+    .text3 {
+      font-size: 14px;
+    }
+    .subText {
+      font-size: 12px;
+    }
+  }
+}

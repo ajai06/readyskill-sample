@@ -1,0 +1,18 @@
+<svg width="24" height="21" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <g stroke="null">
+   <title stroke="null">Atom/Icon/Resource/Education</title>
+   <g stroke="null" fill-rule="evenodd" fill="none" id="svg_1">
+    <g stroke="null" fill="#181633" transform="translate(-71 -226)" id="svg_2">
+     <g stroke="null" transform="translate(71 224)" id="svg_3">
+      <path stroke-width="0.5" fill="#5467FE" stroke="#5467FE" d="m11.16771,2.1993l-11.16771,7.77313l0,0l0,9.33401l1.52878,0l0,-8.27778l3.07666,2.14378l0,8.68462l13.12073,0l0,-8.68462l4.58633,-3.20001l-11.14479,-7.77313zm8.43503,7.77313l-8.43503,5.86799l-7.3152,-5.08559l7.05148,0l0,-1.5648l-7.05148,0l7.3152,-5.08558l8.43503,5.86798zm-3.40535,10.31983l-10.06317,0l0,-6.05576l5.0335,3.52079l5.02967,-3.52079l0,6.05576z"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <line stroke-width="0.5" fill="#5467FE" stroke="#5467FE" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_5" y2="12.15625" x2="23.31442" y1="12.15625" x1="19.25" />
+  <line stroke-width="0.5" fill="#5467FE" stroke="#5467FE" transform="rotate(89.2881 21.2822 12.0938)" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_4" y2="12.09375" x2="23.31442" y1="12.09375" x1="19.25" />
+ </g>
+
+</svg>

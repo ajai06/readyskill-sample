@@ -1,0 +1,95 @@
+.custom-check-table{
+    //...........checkbox style starts..........//
+  .custom-control.overflow-checkbox
+  .overflow-control-input:checked
+  ~ .overflow-control-indicator {
+  border-color: #ddd;
+}
+.custom-control.overflow-checkbox .overflow-control-input {
+  display: none;
+}
+.custom-control.overflow-checkbox
+  .overflow-control-input:checked
+  ~ .overflow-control-indicator::after {
+  -webkit-transform: rotateZ(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotateZ(45deg) scale(1);
+  top: -6px;
+  left: 5px;
+}
+.custom-control.overflow-checkbox
+  .overflow-control-input:checked
+  ~ .overflow-control-indicator::before {
+  opacity: 1;
+}
+.custom-control.overflow-checkbox
+  .overflow-control-input:disabled
+  ~ .overflow-control-indicator {
+  opacity: 0.5;
+  border: 2px solid #ddd;
+  pointer-events: none;
+}
+.custom-control.overflow-checkbox
+  .overflow-control-input:disabled
+  ~ .overflow-control-indicator:after {
+  border-bottom: 4px solid #07c4c1;
+  border-right: 4px solid #07c4c1;
+}
+
+.custom-control.overflow-checkbox .overflow-control-indicator {
+  border-radius: 3px;
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #9391b6;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked + label::after {
+  border: 2px solid black;
+}
+.custom-control.overflow-checkbox .overflow-control-indicator::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-transform: rotateZ(90deg) scale(0);
+  -ms-transform: rotate(90deg) scale(0);
+  transform: rotateZ(90deg) scale(0);
+  width: 10px;
+  border-bottom: 4px solid #07c4c1;
+  border-right: 4px solid #07c4c1;
+  border-radius: 3px;
+  top: -2px;
+  left: 2px;
+}
+.custom-control.overflow-checkbox .overflow-control-indicator::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  width: 10px;
+  border-right: 7px solid #514e78;
+  border-radius: 3px;
+  -webkit-transform: rotateZ(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotateZ(45deg) scale(1);
+  top: -4px;
+  left: 5px;
+  opacity: 0;
+}
+.overflow-checkbox {
+  display: contents;
+}
+//...........checkbox style ends..........//
+}

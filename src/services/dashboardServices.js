@@ -1,0 +1,20 @@
+import axios from "axios";
+import { dashboardAPIEndPoints } from "./apiEndPoints";
+import { learnersAPIEndPoints } from "./apiEndPoints";
+
+export const getInformtionTrayDetails = (data) => axios.get(dashboardAPIEndPoints.getInformtionTrayDetails(),data);
+export const getInformtionTrayCount = (endpoint,userid) => axios.get(dashboardAPIEndPoints.getInformtionTrayCount(endpoint,userid));
+export const getDashBoardSponsoredPrograms = (id) => axios.get(dashboardAPIEndPoints.getDashBoardSponsoredPrograms(id));
+export const getCandidateTrayFilter = (id) => axios.get(dashboardAPIEndPoints.getCandidateTrayFilter(id));
+export const getCandidateCardDetails = (data) => axios.post(dashboardAPIEndPoints.getCandidateCardDetails(),data);
+export const serviceAndKnowledgeDashboardTrayInformation = (data) => axios.get(dashboardAPIEndPoints.serviceDashboardTrayInformation(data));
+export const serviceDashboardUsers = (id) => axios.get(dashboardAPIEndPoints.serviceDashboardUsers(id));
+export const getDashboardAlert = (id, type) => axios.get(dashboardAPIEndPoints.getDashboardAlert(id, type));
+export const dismissDashboardAlert = (data) => axios.put(dashboardAPIEndPoints.dismissDashboardAlert(),data);
+export const getDashBoardMessages = (id) => axios.get(dashboardAPIEndPoints.getDashBoardMessages(id));
+export const getUnReadMessages = (id) => axios.get(dashboardAPIEndPoints.getUnReadMessages(id));
+export const getUnReadMessageCount = (id) => axios.get(dashboardAPIEndPoints.getUnReadMsgCount(id));
+export const updateMessageAsDelivered = (reqData) => axios.post(dashboardAPIEndPoints.updateMessageAsDelivered(), reqData);
+export const knowledgeDashboardTrayInformation = () => axios.get(dashboardAPIEndPoints.knowledgeDashboardTrayInformation());
+export const getAllUsersForCandidateName = () => axios.get(learnersAPIEndPoints.getAllUsersForCandidateName());
+export const getCandidateEnrolledDetails = () => axios.get(learnersAPIEndPoints.getCandidateEnrolledDetails());

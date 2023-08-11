@@ -1,0 +1,11 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "YP652MN9LQ.com.midohiofoodbank.ReadySkill",
+                "paths": [ "/confirm/*"]
+            }
+        ]
+    }
+}

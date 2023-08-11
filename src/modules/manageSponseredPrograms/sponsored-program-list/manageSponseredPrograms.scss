@@ -1,0 +1,59 @@
+.bread-crumb{
+  margin-bottom: 32px;
+  margin-top: -44px;
+  margin-left: 17px;
+  }
+  
+  .navlink{
+      text-decoration: none;
+      border: none !important;
+  }
+  .navlink:hover{
+      color: #9391b6;
+  }
+  .cursor-enable{
+      cursor:pointer
+  }
+.manage-spons-pgm-container{
+    .add-spons-pgm-btn {
+        float: right;
+        border-radius: 1px;
+        border: none;
+        background-image: linear-gradient(to left, #02d9cf, #526afd);
+        padding: 12px 50px;
+        color: #ffffff;
+      }
+      .add-spons-pgm {
+        display: inline-block;
+        width: 92%;
+      }
+      .org-list-card {
+        border: none;
+        width: 92%;
+      }
+    
+ }
+ .user-modal{
+  .modal-dialog{
+      width: auto;
+      min-width: 700px;
+  }
+  .submit-userBtn{
+  background-color: #526afd;
+  border: none;
+  padding: 15px;
+  color: #ffffff;
+  padding: 8px 10px;
+  }
+  .black-txt{
+      color: #000;
+
+  }
+  .modal-show{
+    display: block;  
+    // background: rgba(0, 0, 0, 0.3);    
+  }
+  .modal-hide{
+    display: none;
+  }
+}

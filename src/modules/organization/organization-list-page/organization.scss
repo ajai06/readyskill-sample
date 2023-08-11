@@ -1,0 +1,303 @@
+// list
+.user-modal{
+    .modal-dialog{
+        width: auto;
+        min-width: 700px;
+    }
+    .submit-userBtn{
+    background-color: #526afd;
+    border: none;
+    padding: 15px;
+    color: #ffffff;
+    padding: 8px 10px;
+    }
+    .black-txt{
+        color: #000;
+
+    }
+    .modal-show{
+      display: block;  
+      // background: rgba(0, 0, 0, 0.3);    
+    }
+    .modal-hide{
+      display: none;
+    }
+}
+.org-back-arrow {
+    color: #D9E3EA;
+    margin-right: 0px;
+}
+.back-text {
+    color: #D9E3EA;
+}
+.back-btn {
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.organization-list-container {
+    
+  .list-btns {
+    display: contents;
+  }
+  .add-org-btn {
+    float: right;
+    border-radius: 1px;
+    border: none;
+    background-image: linear-gradient(to left, #02d9cf, #526afd);
+    padding: 12px 50px;
+    color: #ffffff;
+  }
+  .add-org {
+    display: inline-block;
+    width: 92%;
+  }
+  .org-list-card {
+    border: none;
+    width: 92%;
+  }
+  .delete-org {
+    font-size: 18px;
+    color: #d33e3e;
+  }
+  .delete-user{
+    color: #d33e3e;
+  }
+  .edit-org {
+    font-size: 18px;
+    color: #9391b6;
+  }
+  .sc-egiyK {
+    color: #9391b6;
+    font-size: 13px;
+    text-transform: uppercase !important;
+    font-weight: 700;
+  }
+
+  .org-back-arrow {
+    color: #d9e3ea;
+    margin-right: 0px;
+  }
+  .back-text {
+    color: #d9e3ea;
+  }
+  .back-btn {
+    cursor: pointer;
+  }
+  .grey-icon {
+    color: #9391b6;
+  }
+}
+
+// form
+.organization-form-container {
+  //organizaton css
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(70, 67, 99);
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(70, 67, 99);
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(70, 67, 99);
+  }
+  .org-card {
+    background-color: #181633;
+    height: auto;
+  }
+  .form-checkbox {
+    display: flex;
+  }
+  .input[type="email"] {
+    background-color: transparent !important;
+  }
+  .form-control {
+    background-color: transparent;
+    border: 2px solid #555374;
+    color: #d3d2e4;
+  }
+  input[type="email"] {
+    height: calc(1.5em + 0.75rem + 2px);
+  }
+  .create-btn {
+    background-image: linear-gradient(to left, #02d9cf, #526afd);
+    border: none;
+    padding: 15px 80px;
+    color: #ffffff;
+    margin: auto;
+    width: 38%;
+  }
+  .clear-btn {
+    color: #e4e3ea;
+    text-decoration: underline;
+  }
+  .org-buttons {
+    margin: 0 auto;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .error-msg {
+    color: #d33e3e;
+  }
+
+  .back-btn {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .org-back-arrow {
+    color: #d9e3ea;
+    margin-right: 0px;
+  }
+  .back-text {
+    color: #d9e3ea;
+  }
+  select option {
+    background-color: #201e42;
+  }
+
+  //...........checkbox style starts..........//
+  .custom-control.overflow-checkbox
+    .overflow-control-input:checked
+    ~ .overflow-control-indicator {
+    border-color: #07c4c1;
+  }
+  .custom-control.overflow-checkbox .overflow-control-input {
+    display: none;
+  }
+  .custom-control.overflow-checkbox
+    .overflow-control-input:checked
+    ~ .overflow-control-indicator::after {
+    -webkit-transform: rotateZ(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotateZ(45deg) scale(1);
+    top: -6px;
+    left: 5px;
+  }
+  .custom-control.overflow-checkbox
+    .overflow-control-input:checked
+    ~ .overflow-control-indicator::before {
+    opacity: 1;
+  }
+  .custom-control.overflow-checkbox
+    .overflow-control-input:disabled
+    ~ .overflow-control-indicator {
+    opacity: 0.5;
+    border: 2px solid #ccc;
+  }
+  .custom-control.overflow-checkbox
+    .overflow-control-input:disabled
+    ~ .overflow-control-indicator:after {
+    border-bottom: 4px solid #ccc;
+    border-right: 4px solid #ccc;
+  }
+
+  .custom-control.overflow-checkbox .overflow-control-indicator {
+    border-radius: 3px;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #9391b6;
+  }
+  input[type="checkbox"]:checked + label::after {
+    border: 2px solid black;
+  }
+  .custom-control.overflow-checkbox .overflow-control-indicator::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: rotateZ(90deg) scale(0);
+    -ms-transform: rotate(90deg) scale(0);
+    transform: rotateZ(90deg) scale(0);
+    width: 10px;
+    border-bottom: 4px solid #07c4c1;
+    border-right: 4px solid #07c4c1;
+    border-radius: 3px;
+    top: -2px;
+    left: 2px;
+  }
+  .custom-control.overflow-checkbox .overflow-control-indicator::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    width: 10px;
+    border-right: 7px solid #181633;
+    border-radius: 3px;
+    -webkit-transform: rotateZ(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotateZ(45deg) scale(1);
+    top: -4px;
+    left: 5px;
+    opacity: 0;
+  }
+  .overflow-checkbox {
+    display: contents;
+  }
+  //...........checkbox style ends..........//
+}
+
+.modal-dialog {
+  background-color: #fff !important;
+  border-radius: 6px;
+  top: 50px;
+  color: #000;
+}
+
+//organization detailed page css
+.org-detailed-component {
+  .org-detailed-card {
+    background-color: #181633;
+  }
+  .org-details-head {
+    display: flex;
+  }
+  .grey-icon {
+    color: #9391b6;
+    cursor: pointer;
+  }
+  .delete-org {
+    color: #d33e3e;
+    cursor: pointer;
+  }
+  .bold-text-2 {
+    color: #9391b6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+.user-list-card{
+    background-color: #181633;
+}
+.user-list-card{
+    .sc-egiyK{
+    color: #9391b6;
+    font-size: 13px;
+    text-transform: uppercase !important;
+    font-weight: 700;
+    }
+   
+    .edit-org{
+        color: #d3d2e4;
+    }
+}

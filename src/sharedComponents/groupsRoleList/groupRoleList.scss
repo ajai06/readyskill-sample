@@ -1,0 +1,196 @@
+.group-roles-main{
+
+//FOR GROUP MANAGEMENT
+.group-manage-card{
+    background-color: #181633;
+    min-height: 600px;
+    height: auto;
+
+    .react-tabs__tab--selected {
+        border-bottom: 4px solid;
+        border-image: linear-gradient(to left, #02d9cf, #526afd);
+        border-image-slice: 1;
+        color: #fff !important;
+        margin: auto;
+        text-decoration: none;
+        font-weight: 500;
+        background-color: transparent;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+    }
+    .react-tabs__tab {
+        color: #9391b6;
+        font-weight: 500;
+        padding: 6px 20px;
+    }
+}
+
+
+//...........css for crossmark....... //
+.cross-check{
+    .custom-control.overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator {
+        border:2px solid #ddd;
+        background-color: transparent;
+    }
+    .custom-control.overflow-checkbox .overflow-control-input:checked ~ .overflow-control-indicator::after {
+        -webkit-transform: rotateZ(0deg) scale(1);
+        -ms-transform: rotate(0deg) scale(1);
+        transform: rotateZ(0deg) scale(1);
+        top: -6px;
+        left: 0px;
+    }
+    .custom-control.overflow-checkbox .overflow-control-input:disabled ~ .overflow-control-indicator:after {
+        border-bottom: 4px solid #ccc;
+        border-right: 4px solid #ccc;
+    }
+    .custom-control.overflow-checkbox .overflow-control-indicator::after {
+        content: "X";
+        color: #d33e3e;
+        font-weight: 500;
+        margin-bottom: 1px;
+        display: block;
+        position: absolute;
+        width: 10px;
+        border-bottom: none !important;
+        border-right:none !important;
+        top: -2px;
+        left: 2px;
+    }
+    .custom-control.overflow-checkbox .overflow-control-indicator::before {
+        border-right:none !important;
+    }
+}
+.check-tick{
+
+}
+.check-blank{
+    
+}
+ //...........css for crossmark ends....... //
+
+
+ //accordion starting
+.accordion_one .panel-group {
+    margin-bottom: 0;
+    margin-left: 1px;
+}
+
+.accordion_one .panel {
+    background-color: transparent;
+    box-shadow: none;
+    border-bottom: 0px solid transparent;
+    border-radius: 0;
+    margin: 0;
+}
+
+.accordion_one .panel-default {
+    border: 0;
+}
+
+.accordion_one .panel-default > .panel-heading {
+    border-radius: 0px;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.accordion_one .panel .panel-heading a.collapsed {
+    display: block;
+    padding: 12px 30px;
+    border-top: 0px;
+}
+
+.accordion_one .panel .panel-heading a {
+    display: block;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid #302e5f;
+}
+
+.accordion-wrap .panel .panel-heading a {
+    font-size: 14px;
+}
+
+.accordion_one .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 25px 30px 30px 35px;
+}
+
+.accordion_one .panel .panel-heading a:after {
+    content: "\2212";
+}
+
+.accordion_one .panel .panel-heading a:after,
+.accordion_one .panel .panel-heading a.collapsed:after {
+    font-family: "FontAwesome";
+    font-size: 15px;
+    width: 36px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    float: left;
+    margin-left: -31px;
+    margin-top: -12px;
+    margin-right: 15px;
+}
+//Custom style
+.accordion-button::after {
+    content: "\2212"
+  }
+  .accordion-button:not(.collapsed)::after {
+    content:  "\2b";
+}
+.panel-title > a:before {
+  
+    font-family: FontAwesome;
+    content:"\f068";
+    border: 2px solid #9391b6;
+    border-radius: 3px;
+    padding: 2px 3px;
+    margin-right: 10px;
+
+    
+}
+.panel-title a:hover{
+    color: #fff !important;
+}
+.panel-title > a.collapsed:before {
+   
+    content:"\f067";
+}
+.accordion_one .panel .panel-heading a:after, .accordion_one .panel .panel-heading a.collapsed:after{
+    display: none;
+}
+    //accordion ends
+
+.cancel-btn-group{
+    border-radius: 1px;
+    border: none;
+    background-color: #5a6268;
+    padding: 10px 35px;
+    color: #ffffff;
+}
+.save-btn-group{
+    border-radius: 1px;
+    border: none;
+    background-image: linear-gradient(to left, #02d9cf, #526afd);
+    padding: 10px 35px;
+    color: #ffffff;
+}
+.org-roles-card{
+    border: 1px solid #9391b6;
+    height: 500px;
+    overflow-y: auto;
+}
+.grp-manage-btns{
+    right: 15px;
+    top: -36px;
+}
+
+}

@@ -1,0 +1,150 @@
+html{
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  // overflow-y: hidden;
+}
+body{
+  background-color: #302E5F !important;
+}
+.email-invite-container {
+  .inviteEmail-bg {
+    background-image: linear-gradient(to bottom, #02d9cf, #526afd);
+  }
+  .login-title {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 125px 15px 110px 15px;
+  }
+  .wrap-login {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .login-form-title {
+    font-size: 28px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+  }
+  .emailInvite-container {
+    width: 25%;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .login-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .wrap-input {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+  }
+  .input-items {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    width: 100%;
+    background: transparent;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 30px 0 25px;
+  }
+  .container-form-btn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+  }
+  .form-control{
+    color: #ffffff;
+  }
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active  {
+      -webkit-box-shadow: 0 0 0 30px #302e5f  inset !important;
+      -webkit-text-fill-color: #fff !important;
+      caret-color: #fff;
+  }
+  .Invite-email-btn {
+    border-radius: 1px;
+    border: none;
+    background-image: linear-gradient(to left, #02d9cf, #526afd);
+    padding: 20px 150px;
+    color: #ffffff;
+  }
+  .txt1 {
+    font-size: 16px;
+    color: #999999;
+    line-height: 1.4;
+  }
+  .txt2 {
+    font-size: 16px;
+    color: #52a6fd;
+    line-height: 1.4;
+  }
+  .btn-face:hover,
+  .btn-google:hover {
+    border-color: #526afd;
+  }
+  .other-logins {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .other-logins > a {
+    border: 1px solid white;
+    color: #ffffff;
+    padding: 5px 20px;
+    margin: 10px;
+  }
+  .signup-text {
+    color: #9391b6;
+    font-size: 16px;
+  }
+  .error-msg {
+    color: #d33e3e;
+  }
+  .disabled-input {
+    background-color: #2d2c4e;
+  }
+
+  .modal-show {
+    display: block;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .modal-hide {
+    display: none;
+  }
+  .error-icon {
+    color: #d33e3e;
+  }
+}

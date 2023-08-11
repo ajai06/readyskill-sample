@@ -1,0 +1,89 @@
+.invite-form-container {
+  .custom-tooltip {
+    position: relative;
+  }
+  .custom-tooltip .tooltiptext {
+    visibility: hidden;
+    display: none;
+    background-color: #2c2a5f;
+    color: #f0f0f0;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    padding: 8px 10px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 55px;
+    transform: translateY(-100%);
+    max-width: 300px;
+    width: max-content;
+    white-space: break-spaces;
+    margin-left: -60px;
+    cursor: pointer;
+  }
+  .tooltiptext {
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 200 !important;
+    text-transform: none;
+    line-height: 15px;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -ms-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    transition-delay: 0.4s;
+  }
+  .custom-tooltip:hover .tooltiptext {
+    visibility: visible;
+    display: block;
+    opacity: 1;
+  }
+  .invite-card {
+    background-color: #181633;
+    height: auto;
+  }
+  #inviteCode {
+    background-color: transparent;
+    color: #d3d2e4;
+  }
+  input[type="password"] {
+    background-color: transparent !important;
+    border: 2px solid #555374;
+    color: #d3d2e4;
+  }
+  .org-back-arrow {
+    color: #d9e3ea;
+    margin-right: 0px;
+  }
+  .back-text {
+    color: #d9e3ea;
+  }
+  .back-btn {
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .eye-icon {
+    position: absolute;
+    z-index: 11;
+    top: 53%;
+    right: 135px;
+    font-size: 18px;
+    color: #d3d2e4;
+    cursor: pointer;
+  }
+  .code-pass {
+    position: relative;
+  }
+  .refresh-code {
+    display: flex;
+  }
+  .refresh-icon {
+    font-size: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: #d3d2e4;
+  }
+}
